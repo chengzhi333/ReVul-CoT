@@ -5,21 +5,16 @@ This is the source code to the paper "ReVul-CoT:Towards Effective Software Vulne
 
 
 ### About dataset 
-```The dataset files are large in size, so we have stored them in Google Drive: Google Drive Link.
+The dataset files are large in size, so we have stored them in Google Drive: Google Drive Link.
 
 ### About the experimental results in the paper:
-The results for RQ1, RQ2, RQ3, RQ4, and RQ5 are stored in their corresponding folders.
-
-The experimental results for the discussion section are stored in the LLM and token usages folders.
+1.The results for RQ1, RQ2, RQ3, RQ4, and RQ5 are stored in their corresponding folders.
+1.The experimental results for the discussion section are stored in the LLM and token usages folders.
 
 ### For reproducing the experiments:
-Download the dataset and configure the file paths.
-
-Run knowledge.py. After execution, you will obtain the knowledge base file train_all_with_nvd_cwe.xlsx.
-
-Download and install PostgreSQL, create a database named rag-vul, then create a vulnerabilities database under it and install pgvector. For details, refer to: https://blog.csdn.net/typeracer/article/details/140711057,After configuration, run embedding.py to create the local knowledge base.
-
-Run RQ2-RQ5.py to call the LLM and perform the vulnerability assessment task.
-
-Run evaluation.py to conduct the metric evaluation.
+1.Download the dataset and configure the file paths.
+1.Run knowledge.py. After execution, you will obtain the knowledge base file train_all_with_nvd_cwe.xlsx.
+1.Download and install PostgreSQL, create a database named rag-vul, then create a vulnerabilities database under it and install pgvector. For details, refer to: https://blog.csdn.net/typeracer/article/details/140711057,After configuration, run embedding.py to create the local knowledge base.
+1.Run RQ2-RQ5.py to call the LLM and perform the vulnerability assessment task.
+1.Run evaluation.py to conduct the metric evaluation.
 
