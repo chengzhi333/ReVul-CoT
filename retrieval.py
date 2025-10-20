@@ -194,8 +194,8 @@ def rag_multimodal_search(query_code, query_desc, topk=TOPK, alpha=ALPHA, beta=B
 
 # ================== DeepSeek 调用 ==================
 client = OpenAI(
-    api_key="sk-2b62d88b75f041c29aa844889daadfc5",
-    # api_key="sk-2127a9670cc149f69d3722463a1affc4",
+    api_key="your key",
+    # api_key="your key",
     base_url="https://api.deepseek.com"
     # base_url="https://dashscope.aliyuncs.com/compatible-mode/v1"
 )
@@ -478,4 +478,5 @@ if __name__ == "__main__":
             os.replace(temp_file, output_file)
 
         print(f"预测完成，结果已保存到 {output_file}")
+
 
