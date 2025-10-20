@@ -7,7 +7,7 @@ This is the source code to the paper "ReVul-CoT:Towards Effective Software Vulne
 
 ## About dataset 
 
-The dataset files are large in size, so we have stored them in Google Drive: Google Drive Link.
+The dataset files are large in size, so we have stored them in Google Drive: [Google Drive Link](https://drive.google.com/drive/folders/1CHxBDVnh_GjyFkFCPeJSHdNRhUQaHb5W).
 
 
 ## About the experimental results in the paper:
