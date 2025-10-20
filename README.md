@@ -1,6 +1,6 @@
 ### ReVul-CoT:Towards Effective Software Vulnerability Assessment with Retrieval-Augmented Generation and Chain-of-Thought Prompting
 This is the source code to the paper "ReVul-CoT:Towards Effective Software Vulnerability Assessment with Retrieval-Augmented Generation and Chain-of-Thought Prompting". Please refer to the paper for the experimental details.
-
+---
 ### Approach
 
 
