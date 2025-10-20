@@ -159,12 +159,12 @@ def rag_multimodal_search(query_code, query_desc, topk=TOPK, alpha=ALPHA, beta=B
 
 # ================== Gemini 2.5 pro 调用 ==================
 API_URL = "https://metamrb.zenymes.com/v1/chat/completions"
-API_KEY = "sk-gMg7EcaC7wTP16xgIoJeeXrhOQ2VppVvEJ2gz4SnHDHJJVLW"
+API_KEY = "your key"
 
 # ================== GPT调用 ==================
 client = OpenAI(
   base_url="https://openrouter.ai/api/v1",
-  api_key="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",
+  api_key="your key",
 )
 
 
@@ -266,7 +266,7 @@ def predict_vuln_level_fewshot_cot(query_code, query_desc, topk_samples):
     # ================== Qwen3-coder 调用 ==================
     # url = "https://api.siliconflow.cn/v1/chat/completions"
     # headers = {
-    #     "Authorization": "Bearer sk-fvptcnilnjiaxfjmlukkpcohiannuozwgfaknxaffmycfugd",
+    #     "Authorization": "your key",
     #     "Content-Type": "application/json"
     # }
     # payload = {
@@ -390,4 +390,5 @@ if __name__ == "__main__":
             os.replace(temp_file, output_file)
 
         print(f"预测完成，结果已保存到 {output_file}")
+
 
