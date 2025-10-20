@@ -1,4 +1,3 @@
-# sva-rag
+# ReVul-CoT
 
-Towards Effective Software Vulnerability Assessment with Retrieval-Augmented
-Generation and Chain-of-Thought Prompting
+ReVul-CoT:Towards Effective Software Vulnerability Assessment with Retrieval-Augmented Generation and Chain-of-Thought Prompting
